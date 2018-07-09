@@ -58,7 +58,7 @@ contract simpleVote
    
     function freeze() public isChair returns(uint ) 
     {
-        uint winner=0;a
+        uint winner=0;
         for (uint i=1;i<voteResult.length;i++)
         {
             if(voteResult[i]>winner)
